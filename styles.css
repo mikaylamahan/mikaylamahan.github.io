@@ -7,7 +7,7 @@ body{
     max-height: 60px; 
 }
 .navigation .navbar-brand{
-    color: white; 
+    color: teal; 
     margin-left: 30px; 
     padding: inherit; 
     font-weight: bold; 
@@ -19,13 +19,13 @@ body{
     font-size: 15px; 
 }
 .active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:whitesmoke; 
+    background-color:aquamarine; 
 }
 .dropdown-item{
     color: grey; 
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:whitesmoke; 
+    background-color:aquamarine; 
 }
 a{
     color: grey;
@@ -87,12 +87,11 @@ border-top-style: solid;
 border-top-width: 5px; 
 border-top-color: teal;
 color: white; 
-min-height: 55px; 
+min-height: 40px; 
 font-family: 'Times New Roman', Times, serif;
 font-size: 15px; 
 text-align: center; 
-position: fixed;
-left: 0;
+left: 20;
 bottom: 0;
 width: 100%;
 padding-top: 15px; 
@@ -120,7 +119,5 @@ button{
 button:focus {
 
     outline: 1px auto;
-    outline: 5px auto -webkit-focusring-color;
-    
-    }
+}
 }
